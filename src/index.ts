@@ -5,7 +5,7 @@ export class Success<T = undefined> {
         return new Success(value)
     }
 
-    static check<U, T>(either: Failure<U> | Success<T>): either is Success {
+    static check<U, T>(either: Failure<U> | Success<T>): either is Success<T> {
         return either instanceof Success;
     }
 }
