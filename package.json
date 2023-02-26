@@ -2,7 +2,7 @@
   "name": "easy-result",
   "version": "1.0.0",
   "description": "Custom either type implementation to handle the result of operations",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest --watch",
     "release": "release-it",
