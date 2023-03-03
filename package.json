@@ -3,6 +3,8 @@
   "version": "1.0.2",
   "description": "Custom either type implementation to handle the result of operations",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "browser": "dist/index.js",
   "scripts": {
     "test": "jest --watch",
     "release": "release-it",
