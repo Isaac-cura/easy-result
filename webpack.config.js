@@ -4,6 +4,9 @@ module.exports = [
   {
     mode: 'development',
     entry: "./src/index.ts",
+    node: {
+      global: false
+    },
     output: {
       path: path.join(__dirname, "dist"),
       filename: "index.js",
